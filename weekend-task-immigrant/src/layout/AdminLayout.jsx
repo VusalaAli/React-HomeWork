@@ -1,16 +1,16 @@
 import React from 'react'
-import Navbar from './Navbar'
+import AdminNavbar from './AdminNavbar'
 import { Outlet } from 'react-router-dom'
 import Footer from './Footer'
 
-const Layout = () => {
+const AdminLayout = () => {
   return (
     <>
-      <Navbar/>
+      <AdminNavbar/>
       <Outlet/>
       <Footer/>
     </>
   )
 }
 
-export default Layout
+export default AdminLayout

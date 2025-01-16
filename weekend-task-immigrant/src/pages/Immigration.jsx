@@ -5,10 +5,10 @@ const Immigration = () => {
   return (
     <>
     <Helmet>
-        <title>Immigration</title>
+        <title>Immigration Page</title>
         <link rel="canonical" href="https://www.tacobell.com/" />
       </Helmet>
-      immigration
+      Immigration Page
     </>
   )
 }
